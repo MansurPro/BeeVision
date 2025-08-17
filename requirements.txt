@@ -1,0 +1,10 @@
+torch
+torchvision
+torchaudio
+opencv-python
+ultralytics
+roboflow
+pandas
+numpy
+matplotlib
+git+https://github.com/THU-MIG/yolov10.git
