@@ -29,3 +29,18 @@ BeeVision/
 2. Run the setup cells to verify Python and pip versions and install dependencies.
 3. Follow forthcoming notebooks or scripts for training and inference.
 
+## Dataset Preparation
+Use the provided utility to download datasets from Roboflow. Example usage:
+
+```python
+from src.dataset import download_roboflow_dataset
+
+download_roboflow_dataset(
+    api_key="YOUR_API_KEY",
+    workspace="YOUR_WORKSPACE",
+    project="birds-and-bees",
+    version=1,
+)
+```
+
+The dataset will be stored under the `data/` directory by default.
