@@ -44,4 +44,3 @@ download_roboflow_dataset(
 ```
 
 The dataset will be stored under the `data/` directory by default.
-
