@@ -44,3 +44,18 @@ download_roboflow_dataset(
 ```
 
 The dataset will be stored under the `data/` directory by default.
+
+## Model Fine-Tuning
+Use the training helper to fine-tune YOLOv10 once the dataset is prepared:
+
+```python
+from src.train import train_yolov10
+
+train_yolov10(
+    data_yaml="data/birds-and-bees/data.yaml",
+    model="yolov10n.pt",
+    epochs=10,
+)
+```
+
+An interactive workflow demonstrating these steps is available in `notebooks/fine_tuning.ipynb`.
