@@ -59,3 +59,17 @@ train_yolov10(
 ```
 
 An interactive workflow demonstrating these steps is available in `notebooks/fine_tuning.ipynb`.
+
+## Running Inference
+Use the inference helper to run predictions on images or video using trained weights:
+
+```python
+from src.inference import run_inference
+
+run_inference(
+    weights="models/train/weights/best.pt",
+    source="path/to/image_or_video.jpg",
+)
+```
+
+For an interactive demonstration open `notebooks/inference.ipynb` in Colab.

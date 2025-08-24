@@ -18,6 +18,9 @@ ENV/
 /models/*
 !/models/.gitkeep
 
+# Inference outputs
+/runs/*
+
 # OS files
 .DS_Store
 
