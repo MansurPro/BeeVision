@@ -1,0 +1,26 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and models
+/data/*
+!/data/.gitkeep
+/models/*
+!/models/.gitkeep
+
+# Inference outputs
+/runs/*
+
+# OS files
+.DS_Store
+
