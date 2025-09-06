@@ -44,7 +44,6 @@ download_roboflow_dataset(
 
 The dataset will be stored under the `data/` directory by default.
 
-
 ## Model Fine-Tuning
 Use the training helper to fine-tune YOLOv10 once the dataset is prepared:
 
