@@ -25,9 +25,8 @@ BeeVision/
 ```
 
 ## Getting Started
-1. Open `notebooks/beevision_setup.ipynb` in Google Colab.
-2. Run the setup cells to verify Python and pip versions and install dependencies.
-3. Follow forthcoming notebooks or scripts for training and inference.
+1. Open `notebooks/beevision_workflow.ipynb` in Google Colab.
+2. Execute the cells sequentially to install dependencies, prepare the dataset, train a model, and run inference.
 
 ## Dataset Preparation
 Use the provided utility to download datasets from Roboflow. Example usage:
@@ -58,7 +57,7 @@ train_yolov10(
 )
 ```
 
-An interactive workflow demonstrating these steps is available in `notebooks/fine_tuning.ipynb`.
+An end-to-end workflow demonstrating these steps is available in `notebooks/beevision_workflow.ipynb`.
 
 ## Running Inference
 Use the inference helper to run predictions on images or video using trained weights:
@@ -72,4 +71,4 @@ run_inference(
 )
 ```
 
-For an interactive demonstration open `notebooks/inference.ipynb` in Colab.
+For an interactive demonstration, run the inference cells in `notebooks/beevision_workflow.ipynb`.
